@@ -163,7 +163,7 @@ class MenuManager:
     def render_header(self):
         version_number = "v36.2 Enhanced"        
         print(f" {TermCtrl.BRIGHT_YELLOW}┌{'─' * (self.term_width - 4)}┐{TermCtrl.RESET}")
-        print(f" {TermCtrl.BRIGHT_YELLOW}│{TermCtrl.RESET} {TermCtrl.BOLD}{TermCtrl.BRIGHT_WHITE}KITTY TOOLS{TermCtrl.RESET} {TermCtrl.DIM}by CPScript{TermCtrl.RESET}{' ' * (self.term_width - 28)}{TermCtrl.DIM}{TermCtrl.RESET}{TermCtrl.BRIGHT_YELLOW}│{TermCtrl.RESET}")
+        print(f" {TermCtrl.BRIGHT_YELLOW}│{TermCtrl.RESET} {TermCtrl.BOLD}{TermCtrl.BRIGHT_WHITE}KITTY TOOLS{TermCtrl.RESET} {TermCtrl.DIM}by 0u44{TermCtrl.RESET}{' ' * (self.term_width - 28)}{TermCtrl.DIM}{TermCtrl.RESET}{TermCtrl.BRIGHT_YELLOW}│{TermCtrl.RESET}")
         print(f" {TermCtrl.BRIGHT_YELLOW}│{TermCtrl.RESET} {TermCtrl.DIM}{version_number}{TermCtrl.RESET}{' ' * (self.term_width - 17 - len(version_number))}{TermCtrl.BRIGHT_YELLOW}            │{TermCtrl.RESET}")
         print(f" {TermCtrl.BRIGHT_YELLOW}└{'─' * (self.term_width - 4)}┘{TermCtrl.RESET}")
         print()
@@ -316,7 +316,7 @@ class MenuManager:
             # Enhanced version
             print(f"{TermCtrl.BOLD}{TermCtrl.BRIGHT_CYAN}KITTY TOOLS Information{TermCtrl.RESET}\n")
             print(f"{TermCtrl.BRIGHT_WHITE}KITTY TOOLS v36.2 Enhanced{TermCtrl.RESET}")
-            print(f"Developed by: {TermCtrl.BRIGHT_YELLOW}CPScript{TermCtrl.RESET}\n")
+            print(f"Developed by: {TermCtrl.BRIGHT_YELLOW}0u44{TermCtrl.RESET}\n")
             
             print(f"{TermCtrl.UNDERLINE}Contributors:{TermCtrl.RESET}")
             print(f"- {TermCtrl.BRIGHT_RED}@Ccode-lang{TermCtrl.RESET} for helping out!")
@@ -455,7 +455,7 @@ def main():
         print(f"{TermCtrl.BRIGHT_GREEN}Thank you for using KITTY TOOLS{TermCtrl.RESET}")
     except Exception as e:
         print(f"{TermCtrl.BRIGHT_RED}A critical error occurred: {str(e)}{TermCtrl.RESET}")
-        print(f"{TermCtrl.BRIGHT_YELLOW}Please report this issue on GitHub: https://github.com/CPScript/Kitty-Tools/issues{TermCtrl.RESET}")
+        print(f"{TermCtrl.BRIGHT_YELLOW}Please report this issue on GitHub: https://github.com/0u44/Kitty-Tools/issues{TermCtrl.RESET}")
 
 if __name__ == "__main__":
     main()
