@@ -97,6 +97,7 @@ Kitty-Tools is a comprehensive suite of utilities designed for enhancing and ana
 #### Codespace
 1. Create a new Codespace based on the repository
  <img width="410" height="402" alt="Screenshot 2026-01-15 at 12 54 55 PM" src="https://github.com/user-attachments/assets/0c3f56ec-2b02-49cd-8ade-b0d7cca81170" />
+
 2. In the terminal, run:
    ```bash
    python main.py
