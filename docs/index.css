@@ -846,6 +846,42 @@
   align-self: center;
   object-fit: cover;
 }
+.contributors-wrapper {
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}
+.contributors-track {
+  display: flex;
+  gap: 2.5rem;
+  width: max-content;
+
+  animation: contributors-scroll 25s linear infinite;
+}
+.contributors-wrapper:hover .contributors-track {
+  animation-play-state: paused;
+}
+@keyframes contributors-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
 @media(max-width: 991px) {
   .home-cards-container {
     align-items: center;
