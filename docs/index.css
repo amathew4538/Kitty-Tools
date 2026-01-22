@@ -873,6 +873,7 @@
 }
 .contributors-wrapper:hover .contributors-track {
   animation-play-state: paused;
+  cursor: pointer; 
 }
 @keyframes contributors-scroll {
   from {
