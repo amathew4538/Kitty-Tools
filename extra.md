@@ -4,7 +4,7 @@
 * {infomation here}
 
 ## LITE
-* This is a version of Kitty-Tools that is meant to run on slower systems as it doesn't have as many graphical effects so it should be faster, it also doesn't have as many optional modules so it shouldn't run into any errors!
+* This is a version of Kitty-Tools that is meant to run on slower systems as it doesn't have as many graphical effects, so it should be faster. It also doesn't have as many optional modules, so it shouldn't run into any errors!
 
 ## Definitions
 * apt: Advanced Package Tool (High level package installer)
@@ -17,7 +17,7 @@
 
 
 ## Versions
-* You can past versions here:
+* You can find past versions here:
 
 ![Screenshot 2024-01-05 8 21 22 AM](https://github.com/CPScript/Kitty-Tools/assets/83523587/ea8f7306-ee2e-4ca7-8dfb-767df8bfa8cc)
 
